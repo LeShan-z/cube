@@ -11,10 +11,10 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 两个主入口功能等价，区别在颜色识别模块：
 
 ```bash
-# HSV聚类版
+# HSV聚类版,无监督版（不纯是无监督）
 python main_1.py
 
-# KNN版
+# KNN版，有监督版
 python main_1_knn.py
 
 # 无GUI环境（如SSH远程）
